@@ -99,7 +99,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 		true,
 	)
 
-	// Show FPS and position for debugging
+	// TODO: debuggin
 	ebitenutil.DebugPrint(
 		screen,
 		fmt.Sprintf("FPS: %0.1f\nPos: (%0.1f, %0.1f)",
